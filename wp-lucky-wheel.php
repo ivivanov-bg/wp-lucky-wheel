@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WordPress Lucky Wheel
  * Description: Collect customers emails by letting them play interesting Lucky wheel game to get interesting awards
- * Version: 1.0.3.8
+ * Version: 9.0.3.8
  * Author: VillaTheme
  * Author URI: http://villatheme.com
  * Text Domain: wp-lucky-wheel
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-define( 'VI_WP_LUCKY_WHEEL_VERSION', '1.0.3.8' );
+define( 'VI_WP_LUCKY_WHEEL_VERSION', '9.0.3.8' );
 if ( is_plugin_active( 'wordpress-lucky-wheel/wordpress-lucky-wheel.php' ) ) {
 	return;
 }
