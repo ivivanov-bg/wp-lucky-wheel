@@ -1,0 +1,46 @@
+/*v1.0.3.8 - 2020.08.14*/
+- Updated: Compatible with WP5.5
+- Improved: UI/UX
+
+/*v1.0.3.7 - 2020.04.23*/
+- Updated: Class support
+
+/*v1.0.3.6 - 2020.03.23*/
+- Updated: Compatible with WP5.4 and WC4.0
+- Updated: Class support
+
+/*v1.0.3.5 - 2019.10.07*/
+- Updated: Compatible with WP 5.3
+
+/*v1.0.3.4 - 2019.10.07*/
+- Updated: Premium URL
+
+/*v1.0.3.3 - 2019.04.03*/
+- Updated: Make admin notices dismissible
+
+**v1.0.3.2 - 2018.11.21**
+- Updated: Class support
+
+**v1.0.3.1 - 2018.11.10**
+- Fixed: Class support
+
+**v1.0.3 - 2018.10.15**
+- Fixed: Class support
+
+**v1.0.2 - 2018.09.11**
+- Fixed: Wheel description design
+- Fixed: Some texts not translated
+- Added: Slices text color option
+- Added: Option to set time to show popup again when customers close and do not spin
+- Added: GDPR checkbox
+
+/**1.0.1.1 - 2018.05.11**/
+- Updated: Class support
+
+/**1.0.1 - 2018.05.03**/
+- Added: Select Google fonts
+- Added: Class wp-lucky-wheel-popup-icon to embed in elsewhere
+- Fixed: Responsive on mobile
+
+**v1.0.0**
+- First release.

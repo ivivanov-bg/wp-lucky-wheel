@@ -1,0 +1,951 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Lucky Wheel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-14 02:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.2; wp-5.5"
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:44
+msgid "Settings"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:61
+msgctxt "Admin menu"
+msgid "Emails"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:62
+msgctxt "Add new on Admin bar"
+msgid "Emails"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:63
+msgid "View Email"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:64
+msgid "Email Subscribe"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:65
+msgid "Search Email"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:66
+msgid "Parent Email:"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:67
+msgid "No Email found."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:68
+msgid "No Email found in Trash."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:70
+msgid "WordPress lucky wheel emails."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:90
+msgid "Customer name"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:91
+msgid "Mobile"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:92
+msgid "Number of spins"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:93
+msgid "Last spin"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:94
+msgid "Labels"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/wp-lucky-wheel.php:95
+msgid "Coupons"
+msgstr ""
+
+#. Name of the plugin
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:35
+msgid "WordPress Lucky Wheel"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:35
+msgid "WP Lucky Wheel"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:40
+msgid "Emails"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:42
+msgid "Report"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:48
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1812
+msgid "System Status"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:64
+msgid "Preview emails"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:292
+msgid "WordPress Lucky Wheel Settings"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:297
+msgid "General"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:299
+msgid "Pop-up"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:301
+msgid "Wheel Background"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:303
+msgid "Custom Fields"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:305
+msgid "Wheel Settings"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:307
+msgid "Email"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:309
+msgid "Inform Result"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:311
+msgid "Email API"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:318
+msgid "Enable"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:330
+msgid "Enable mobile"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:342
+msgid "Ajax endpoint"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:349
+msgid "Ajax"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:356
+msgid "REST API"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:363
+msgid "Times spinning per email"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:372
+msgid "Delay between each spin of an email"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:381
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:508
+msgid "Seconds"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:383
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:490
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:509
+msgid "Minutes"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:384
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:491
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:510
+msgid "Hours"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:385
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:492
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:511
+msgid "Days"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:398
+msgid "Custom popup icon"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:402
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:411
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:420
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:625
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:815
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:824
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:833
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:883
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:907
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:916
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:945
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:968
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:977
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1221
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1231
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1240
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1250
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1260
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1318
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1346
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1356
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1366
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1381
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1391
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1401
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1411
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1425
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1435
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1445
+msgid "Upgrade This Feature"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:407
+msgid "Custom popup icon color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:416
+msgid "Custom popup icon background color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:425
+msgid "Popup icon position"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:429
+msgid "Top Left"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:430
+msgid "Top Right"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:431
+msgid "Middle Left"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:432
+msgid "Middle Right"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:433
+msgid "Bottom Left"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:434
+msgid "Bottom Right"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:436
+msgid "Position of the popup on screen"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:441
+msgid "Select intent"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:446
+msgid "Popup icon"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:447
+msgid "Automatically show wheel after initial time"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:449
+msgid ""
+"Show wheel after users scroll down a specific value - Premium version only"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:451
+msgid ""
+"Show wheel when users move mouse over the top to close browser - Premium "
+"version only"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:453
+msgid "Random one of these above - Premium version only"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:459
+msgid "Initial time"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:464
+msgid "Enter min,max to set random between min and max (seconds)."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:469
+msgid "Hide popup icon"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:481
+msgid "If customers close and not spin, show popup again after"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:499
+msgid "When finishing a spin, show popup again after"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:517
+msgid "Show only on Homepage"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:529
+msgid "Show only on Blog page"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:542
+msgid "Conditional tags"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:546
+msgid "Ex: !is_page(array(123,41,20))"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:551
+msgid ""
+"Let you control on which pages WordPress Lucky wheel icon appears using "
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:552
+msgid "WP's conditional tags"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:555
+msgid ""
+"\"Home page\", \"Blog page\" options above must be disabled to run these "
+"conditional tags."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:558
+msgid ""
+"Use exclamation mark(!) before a conditional to hide wheel if the "
+"conditional matched. e.g use "
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:559
+msgid " to hide wheel on homepage"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:572
+msgid "Background image"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:586
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1034
+msgid "Remove"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:591
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:598
+msgid "Add Image"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:606
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1170
+msgid "Background color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:621
+msgid "Background effect"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:630
+msgid "Text color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:645
+msgid "Wheel description"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:657
+msgid "Button spin"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:668
+msgid "Button spin color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:683
+msgid "Button spin background color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:699
+msgid "Show text option to not display wheel again"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:711
+msgid "Select font"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:727
+msgid "GDPR checkbox"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:740
+msgid "GDPR message"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:751
+msgid "Custom css"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:766
+msgid "Enable field name"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:780
+msgid "Enable field name on mobile"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:794
+msgid "Field name is required"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:811
+msgid "Enable field phone number"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:820
+msgid "Enable field phone number on mobile"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:829
+msgid "Field phone number is required"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:840
+msgid "Preview Wheel"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:845
+msgid "Pointer position"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:849
+msgid "Center"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:851
+msgid "Top - Premium version only"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:853
+msgid "Right - Premium version only"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:855
+msgid "Bottom - Premium version only"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:857
+msgid "Random - Premium version only"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:864
+msgid "Wheel pointer color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:879
+msgid "Wheel center background image"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:888
+msgid "Wheel center color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:903
+msgid "Wheel border color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:912
+msgid "Wheel border dot color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:921
+msgid "Wheel speed"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:939
+msgid "Wheel spinning duration"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:946
+msgid "From 3s to 15s."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:951
+msgid "Show full wheel"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:958
+msgid "Make all wheel slices visible on desktop"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:964
+msgid "Adjust font size of text on the wheel by(%)"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:973
+msgid "Adjust the size of the wheel by(%)"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:986
+msgid "Index"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:987
+msgid "Prize Type"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:988
+msgid "Label"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:989
+msgid "Value"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:990
+msgid "Probability(%)"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:991
+msgid "Color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:992
+msgid "Text Color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1003
+msgid "Non"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1004
+msgid "Custom"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1035
+msgid "Clone"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1044
+msgid "Slices positions are sortable by drag and drop."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1048
+msgid "*The total Probability: "
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1057
+msgid "Auto Color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1064
+msgid "Color is set randomly from predefined sets for each visitor"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1078
+msgid "\"From\" name"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1087
+msgid "\"From\" address"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1096
+msgid "Email subject"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1101
+msgid "The subject of emails sending to customers when they win."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1106
+msgid "Email heading"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1111
+msgid "The heading of emails sending to customers when they win."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1116
+msgid "Email content"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1117
+msgid ""
+"The content of email sending to customers to inform them the prize they win."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1130
+msgid "Customer's name."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1132
+msgid "Customer's mobile if any."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1134
+msgid "Value of prize that will be sent to customer."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1136
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1300
+msgid "Label of prize that customers win"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1138
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1308
+msgid "Current date"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1144
+msgid "Footer text"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1155
+msgid "Base color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1185
+msgid "Body background color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1201
+msgid "Body text color"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1217
+msgid "Enable admin notification"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1222
+msgid "Send admin notification when someone wins a prize"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1227
+msgid "Send notification to:"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1236
+msgid "Notification Email subject"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1246
+msgid "Notification Email heading"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1255
+msgid "Notification Email content"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1256
+msgid "The content of email sending to admin."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1271
+msgid "Automatically hide wheel after finishing spinning"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1279
+msgid "seconds"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1281
+msgid "Left 0 to disable this feature"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1286
+msgid "Frontend Message if win"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1302
+msgid "Customers'name if they enter"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1304
+msgid "Email that customers enter to spin"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1306
+msgid "Prize value will be sent to customer."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1314
+msgid "Winning effect"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1324
+msgid "Frontend message if lost"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1342
+msgid "Enable Mailchimp"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1352
+msgid "API key"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1362
+msgid "Mailchimp lists"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1377
+msgid "Active Campaign"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1387
+msgid "Active Campaign API Key"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1397
+msgid "Active Campaign API URL"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1407
+msgid "Active Campaign list"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1421
+msgid "SendGrid"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1431
+msgid "SendGrid API Key"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1441
+msgid "Sendgrid lists"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1454
+msgid "Save"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1595
+msgid "Label cannot be empty."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1607
+msgid "Please enter value for custom type."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1625
+msgid "Your settings have been saved!"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1778
+msgid "Lucky Wheel Report"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1782
+msgid "Total Spins"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1783
+msgid "Emails Subcribed"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1784
+msgid "Coupon Given"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1794
+msgid "From"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1796
+msgid "To"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1803
+msgid "Export Emails"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1816
+msgid "file_get_contents"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1828
+msgid "Allow URL Open"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1970
+msgid "OK"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/admin/admin.php:1971
+msgid "Cancel"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:350
+msgid "You have to wait until your next spin."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:353
+#, php-format
+msgid "You can only spin 1 time every %s seconds"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:356
+#, php-format
+msgid "You can only spin 1 time every %s minutes"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:359
+#, php-format
+msgid "You can only spin 1 time every %s hours"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:362
+#, php-format
+msgid "You can only spin 1 time every %s days"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:373
+msgid "Please agree with our term and condition."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:392
+msgid "*Please enter your email"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:393
+msgid "*Please enter a valid email address"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:398
+msgid "Name is required!"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:433
+msgid "Try Your Lucky"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:456
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:569
+msgid "Please enter your name"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:467
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:580
+msgid "Please enter your mobile"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:476
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:589
+msgid "Please enter your email"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:485
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:598
+msgid "I agree with the term and condition"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:498
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:611
+msgid "Never"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:501
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:614
+msgid "Remind later"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:504
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:617
+msgid "No thanks"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:655
+msgid "Email is invalid"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:662
+msgid "Name is required"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:703
+msgid ""
+"Sorry, this email is marked as spam now. Please enter another email to "
+"continue."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:734
+msgid "This email has reach the maximum spins."
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:742
+msgid " seconds"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:744
+#, php-format
+msgid "%s days %s hours %s minutes %s seconds"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:746
+#, php-format
+msgid "%s hours %s minutes %s seconds"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:748
+#, php-format
+msgid "%s minutes %s seconds"
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:750
+msgid "You have to wait "
+msgstr ""
+
+#: E:/Git/master/free-version/wp-lucky-wheel/wp-lucky-wheel/frontend/frontend.php:750
+msgid " to be able to spin again."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Collect customers emails by letting them play interesting Lucky wheel game "
+"to get interesting awards"
+msgstr ""
+
+#. Author of the plugin
+msgid "VillaTheme"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://villatheme.com"
+msgstr ""

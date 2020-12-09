@@ -1,0 +1,48 @@
+@font-face {
+	font-family: "wp-lucky-wheel";
+	src: url("../fonts/wp-lucky-wheel.eot");
+	src: url("../fonts/wp-lucky-wheel.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/wp-lucky-wheel.woff") format("woff"),
+	url("../fonts/wp-lucky-wheel.ttf") format("truetype"),
+	url("../fonts/wp-lucky-wheel.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	@font-face {
+		font-family: "wp-lucky-wheel";
+		src: url("../fonts/wp-lucky-wheel.svg") format("svg");
+	}
+}
+
+[class^="wplwl-"]:before, [class*=" wplwl-"]:before,
+[class^="wplwl-"]:after, [class*=" wplwl-"]:after {
+	font-family: "wp-lucky-wheel";
+	font-size: 20px;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+
+.wplwl-location:before {
+	content: "\f100";
+}
+
+.wplwl-giftbox:before {
+	content: "\f101";
+}
+
+.wplwl-cancel:before {
+	content: "\f103";
+	font-size: 35px;
+	cursor: pointer;
+}
+
+.wplwl-wheel:before {
+	content: "\f104";
+}
+.dashicons-wheel:before {
+	font-family: "wp-lucky-wheel";
+	content: "\f104";
+}
