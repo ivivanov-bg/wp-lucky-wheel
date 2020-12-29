@@ -270,14 +270,14 @@ jQuery(document).ready(function ($) {
             }
             let wplwl_email = $('#wplwl_player_mail').val();
             let wplwl_name = $('#wplwl_player_name').val();
-            let wplwl_modile = $('#wplwl_player_mobile').val();
+            let wplwl_mobile = $('#wplwl_player_mobile').val();
             let qualified = true;
             if (custom_field_name_enable == 'on' && custom_field_name_required == 'on' && !wplwl_name) {
                 $('#wplwl_error_name').html(_wplwl_get_email_params.custom_field_name_message);
                 $('.wplwl_field_name').addClass('wplwl-required-field');
                 qualified = false;
             }
-            if (custom_field_mobile_enable == 'on' && custom_field_mobile_required == 'on' && !wplwl_modile) {
+            if (custom_field_mobile_enable == 'on' && custom_field_mobile_required == 'on' && !wplwl_mobile) {
                 $('#wplwl_error_mobile').html(_wplwl_get_email_params.custom_field_mobile_message);
                 $('.wplwl_field_mobile').addClass('wplwl-required-field');
                 qualified = false;
@@ -306,7 +306,7 @@ jQuery(document).ready(function ($) {
                         data: {
                             user_email: wplwl_email,
                             user_name: wplwl_name,
-                            user_mobile: wplwl_modile,
+                            user_mobile: wplwl_mobile,
                             language: _wplwl_get_email_params.language,
                             _wordpress_lucky_wheel_nonce: $('#_wordpress_lucky_wheel_nonce').val(),
                         },
