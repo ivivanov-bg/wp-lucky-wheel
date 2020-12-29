@@ -470,19 +470,19 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                     break;
             }
         }
-        $limit_time_warning = esc_html__( 'You have to wait until your next spin.', 'wp-lucky-wheel' );
+        $limit_time_warning = esc_html__( 'Моля изчакайте преди да опитате отново.', 'wp-lucky-wheel' );
         switch ( $this->settings->get_params( 'notify', 'show_again_unit' ) ) {
             case 's':
-                $limit_time_warning = sprintf( esc_html__( 'You can only spin 1 time every %s seconds', 'wp-lucky-wheel' ), $this->settings->get_params( 'notify', 'show_again' ) );
+                $limit_time_warning = sprintf( esc_html__( 'Можете да участвате веднъж навсеки %s секунди', 'wp-lucky-wheel' ), $this->settings->get_params( 'notify', 'show_again' ) );
                 break;
             case 'm':
-                $limit_time_warning = sprintf( esc_html__( 'You can only spin 1 time every %s minutes', 'wp-lucky-wheel' ), $this->settings->get_params( 'notify', 'show_again' ) );
+                $limit_time_warning = sprintf( esc_html__( 'Можете да участвате веднъж навсеки %s минути', 'wp-lucky-wheel' ), $this->settings->get_params( 'notify', 'show_again' ) );
                 break;
             case 'h':
-                $limit_time_warning = sprintf( esc_html__( 'You can only spin 1 time every %s hours', 'wp-lucky-wheel' ), $this->settings->get_params( 'notify', 'show_again' ) );
+                $limit_time_warning = sprintf( esc_html__( 'Можете да участвате веднъж навсеки %s часа', 'wp-lucky-wheel' ), $this->settings->get_params( 'notify', 'show_again' ) );
                 break;
             case 'd':
-                $limit_time_warning = sprintf( esc_html__( 'You can only spin 1 time every %s days', 'wp-lucky-wheel' ), $this->settings->get_params( 'notify', 'show_again' ) );
+                $limit_time_warning = sprintf( esc_html__( 'Можете да участвате веднъж навсеки %s дни', 'wp-lucky-wheel' ), $this->settings->get_params( 'notify', 'show_again' ) );
                 break;
 
         }
@@ -493,7 +493,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
             'wheel_border_color' => '#ffffff',
             'wheel_center_color' => $this->settings->get_params( 'wheel_wrap', 'wheel_center_color' ),
             'gdpr'               => $this->settings->get_params( 'wheel_wrap', 'gdpr' ),
-            'gdpr_warning'       => esc_html__( 'Please agree with our term and condition.', 'wp-lucky-wheel' ),
+            'gdpr_warning'       => esc_html__( 'Моля приемете общите условия.', 'wp-lucky-wheel' ),
 
             'position'        => $this->settings->get_params( 'notify', 'position' ),
             'show_again'      => $this->settings->get_params( 'notify', 'show_again' ),
@@ -512,16 +512,17 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
             'auto_close'                        => $this->settings->get_params( 'result', 'auto_close' ),
             'show_wheel'                        => wplwl_get_explode( ',', $this->settings->get_params( 'notify', 'show_wheel' ) ),
             'time_if_close'                     => $time_if_close,
-            'empty_email_warning'               => esc_html__( '*Please enter your email', 'wp-lucky-wheel' ),
-            'invalid_email_warning'             => esc_html__( '*Please enter a valid email address', 'wp-lucky-wheel' ),
+            'empty_email_warning'               => esc_html__( '*Моля въвдете Вашия email', 'wp-lucky-wheel' ),
+            'invalid_email_warning'             => esc_html__( '*Email адресът е невалиден', 'wp-lucky-wheel' ),
             'limit_time_warning'                => $limit_time_warning,
             'custom_field_name_enable'          => $this->settings->get_params( 'custom_field_name_enable' ),
             'custom_field_name_enable_mobile'   => $this->settings->get_params( 'custom_field_name_enable_mobile' ),
             'custom_field_name_required'        => $this->settings->get_params( 'custom_field_name_required' ),
+            'custom_field_name_message'         => esc_html__( 'Моля въвдете Вашето име!', 'wp-lucky-wheel' ),
             'custom_field_mobile_enable'        => $this->settings->get_params( 'custom_field_mobile_enable' ),
             'custom_field_mobile_enable_mobile' => $this->settings->get_params( 'custom_field_mobile_enable_mobile' ),
             'custom_field_mobile_required'      => $this->settings->get_params( 'custom_field_mobile_required' ),
-            'custom_field_name_message'         => esc_html__( 'Name is required!', 'wp-lucky-wheel' ),
+            'custom_field_mobile_message'       => esc_html__( 'Моля въвдете Вашия телефон', 'wp-lucky-wheel' ),
             'show_full_wheel'                   => $this->settings->get_params( 'wheel', 'show_full_wheel' ),
             'font_size'                         => 100,
             'wheel_size'                        => 100,
@@ -556,7 +557,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
         }
         $spin_button = $this->settings->get_params( 'wheel_wrap', 'spin_button' );
         if ( empty( $spin_button ) ) {
-            $spin_button = esc_html__( 'Try Your Lucky', 'wp-lucky-wheel' );
+            $spin_button = esc_html__( 'Опитай късмета си', 'wp-lucky-wheel' );
         }
         wp_nonce_field( 'wordpress_lucky_wheel_nonce_action', '_wordpress_lucky_wheel_nonce' );
         ?>
@@ -579,7 +580,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                             <div class="wplwl_field_name_wrap">
                                 <span id="wplwl_error_name"></span>
                                 <input type="text" class="wplwl_field_input wplwl_field_name" name="wplwl_player_name"
-                                       placeholder="<?php esc_html_e( 'Please enter your name', 'wp-lucky-wheel' ) ?>"
+                                       placeholder="<?php esc_html_e( 'Име', 'wp-lucky-wheel' ) ?>"
                                        id="wplwl_player_name">
                             </div>
                             <?php
@@ -590,7 +591,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                                 <span id="wplwl_error_mobile"></span>
                                 <input type="tel" class="wplwl_field_input wplwl_field_mobile"
                                        name="wplwl_player_mobile"
-                                       placeholder="<?php esc_html_e( 'Please enter your mobile', 'wp-lucky-wheel' ) ?>"
+                                       placeholder="<?php esc_html_e( 'Телефон', 'wp-lucky-wheel' ) ?>"
                                        id="wplwl_player_mobile">
                             </div>
                             <?php
@@ -599,7 +600,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                         <div class="wplwl_field_email_wrap">
                             <span id="wplwl_error_mail"></span>
                             <input type="email" class="wplwl_field_input wplwl_field_email" name="wplwl_player_mail"
-                                   placeholder="<?php esc_html_e( 'Please enter your email', 'wp-lucky-wheel' ) ?>"
+                                   placeholder="<?php esc_html_e( 'Email', 'wp-lucky-wheel' ) ?>"
                                    id="wplwl_player_mail">
                         </div>
                         <span class="wplwl_chek_mail wplwl_spin_button button-primary"
@@ -608,7 +609,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                         if ( 'on' == $this->settings->get_params( 'wheel_wrap', 'gdpr' ) ) {
                             $gdpr_message = $this->settings->get_params( 'wheel_wrap', 'gdpr_message' );
                             if ( empty( $gdpr_message ) ) {
-                                $gdpr_message = esc_html__( 'I agree with the term and condition', 'wp-lucky-wheel' );
+                                $gdpr_message = esc_html__( 'Съгласявам се с общите условия.', 'wp-lucky-wheel' );
                             }
                             ?>
                             <div class="wplwl-gdpr-checkbox-wrap">
@@ -621,13 +622,13 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                             ?>
                             <div class="wplwl-show-again-option">
                                 <div class="wplwl-never-again">
-                                    <span><?php esc_html_e( 'Never', 'wp-lucky-wheel' ); ?></span>
+                                    <span><?php esc_html_e( 'Не показвай повече', 'wp-lucky-wheel' ); ?></span>
                                 </div>
                                 <div class="wplwl-reminder-later">
-                                    <span class="wplwl-reminder-later-a"><?php esc_html_e( 'Remind later', 'wp-lucky-wheel' ); ?></span>
+                                    <span class="wplwl-reminder-later-a"><?php esc_html_e( 'По-късно', 'wp-lucky-wheel' ); ?></span>
                                 </div>
                                 <div class="wplwl-close">
-                                    <span><?php esc_html_e( 'No thanks', 'wp-lucky-wheel' ); ?></span>
+                                    <span><?php esc_html_e( 'Затвори', 'wp-lucky-wheel' ); ?></span>
                                 </div>
                             </div>
                             <?php
@@ -692,7 +693,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                             <div class="wplwl_field_name_wrap">
                                 <span id="wplwl_error_name"></span>
                                 <input type="text" class="wplwl_field_input wplwl_field_name" name="wplwl_player_name"
-                                       placeholder="<?php esc_html_e( 'Please enter your name', 'wp-lucky-wheel' ) ?>"
+                                       placeholder="<?php esc_html_e( 'Име', 'wp-lucky-wheel' ) ?>"
                                        id="wplwl_player_name">
                             </div>
                             <?php
@@ -703,7 +704,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                                 <span id="wplwl_error_mobile"></span>
                                 <input type="tel" class="wplwl_field_input wplwl_field_mobile"
                                        name="wplwl_player_mobile"
-                                       placeholder="<?php esc_html_e( 'Please enter your mobile', 'wp-lucky-wheel' ) ?>"
+                                       placeholder="<?php esc_html_e( 'Телефон', 'wp-lucky-wheel' ) ?>"
                                        id="wplwl_player_mobile">
                             </div>
                             <?php
@@ -712,7 +713,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                         <div class="wplwl_field_email_wrap">
                             <span id="wplwl_error_mail"></span>
                             <input type="email" class="wplwl_field_input wplwl_field_email" name="wplwl_player_mail"
-                                   placeholder="<?php esc_html_e( 'Please enter your email', 'wp-lucky-wheel' ) ?>"
+                                   placeholder="<?php esc_html_e( 'Email', 'wp-lucky-wheel' ) ?>"
                                    id="wplwl_player_mail">
                         </div>
                         <span class="wplwl_chek_mail wplwl_spin_button button-primary"
@@ -721,7 +722,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                         if ( 'on' == $this->settings->get_params( 'wheel_wrap', 'gdpr' ) ) {
                             $gdpr_message = $this->settings->get_params( 'wheel_wrap', 'gdpr_message' );
                             if ( empty( $gdpr_message ) ) {
-                                $gdpr_message = esc_html__( 'I agree with the term and condition', 'wp-lucky-wheel' );
+                                $gdpr_message = esc_html__( 'Съгласявам се с общите условия', 'wp-lucky-wheel' );
                             }
                             ?>
                             <div class="wplwl-gdpr-checkbox-wrap">
@@ -734,13 +735,13 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                             ?>
                             <div class="wplwl-show-again-option">
                                 <div class="wplwl-never-again">
-                                    <span><?php esc_html_e( 'Never', 'wp-lucky-wheel' ); ?></span>
+                                    <span><?php esc_html_e( 'Не показвай повече', 'wp-lucky-wheel' ); ?></span>
                                 </div>
                                 <div class="wplwl-reminder-later">
-                                    <span class="wplwl-reminder-later-a"><?php esc_html_e( 'Remind later', 'wp-lucky-wheel' ); ?></span>
+                                    <span class="wplwl-reminder-later-a"><?php esc_html_e( 'По-късно', 'wp-lucky-wheel' ); ?></span>
                                 </div>
                                 <div class="wplwl-close">
-                                    <span><?php esc_html_e( 'No thanks', 'wp-lucky-wheel' ); ?></span>
+                                    <span><?php esc_html_e( 'Затвори', 'wp-lucky-wheel' ); ?></span>
                                 </div>
                             </div>
                             <?php
@@ -779,14 +780,21 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
         if ( ! $email || ! is_email( $email ) ) {
             wp_send_json(
                 array(
-                    'allow_spin' => esc_html__( 'Email is invalid', 'wp-lucky-wheel' ),
+                    'allow_spin' => esc_html__( 'Email адресът е невалиден', 'wp-lucky-wheel' ),
                 )
             );
         }
         if ( ! $name && 'on' == $this->settings->get_params( 'custom_field_name_required' ) ) {
             wp_send_json(
                 array(
-                    'allow_spin' => esc_html__( 'Name is required', 'wp-lucky-wheel' ),
+                    'allow_spin' => esc_html__( 'Моля въвдете Вашето име', 'wp-lucky-wheel' ),
+                )
+            );
+        }
+				if ( ! $mobile && 'on' == $this->settings->get_params( 'custom_field_mobile_required' ) ) {
+            wp_send_json(
+                array(
+                    'allow_spin' => esc_html__( 'Моля въвдете Вашия телефон', 'wp-lucky-wheel' ),
                 )
             );
         }
@@ -814,7 +822,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
         $wheel               = $this->settings->get_params( 'wheel' );
         $weigh               = $wheel['probability'];
         if ( $this->settings->get_params( 'general', 'enable' ) != 'on' ) {
-            $allow = 'Wrong email.';
+            $allow = 'Грешен email.';
             $data  = array( 'allow_spin' => $allow );
             wp_send_json( $data );
         }
@@ -827,7 +835,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
             )
         ) );
         if ( $trash_email->have_posts() ) {
-            $allow = esc_html__( 'Sorry, this email is marked as spam now. Please enter another email to continue.', 'wp-lucky-wheel' );
+            $allow = esc_html__( 'Съжаляваме, този email е маркиран като spam. Моля въведете друг email, за да продължите.', 'wp-lucky-wheel' );
             wp_reset_postdata();
             $data = array( 'allow_spin' => $allow );
             wp_send_json( $data );
@@ -858,7 +866,7 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                 wp_update_post( $post_data );
                 $spin_meta = get_post_meta( $email_id, 'wplwl_spin_times', true );
                 if ( $spin_meta['spin_num'] >= $this->settings->get_params( 'general', 'spin_num' ) ) {
-                    $allow = esc_html__( 'This email has reach the maximum spins.', 'wp-lucky-wheel' );
+                    $allow = esc_html__( 'Достигнат максимален брой опити.', 'wp-lucky-wheel' );
                 } elseif ( ( $now - $spin_meta['last_spin'] ) < $email_delay ) {
                     $wait      = $email_delay + $spin_meta['last_spin'] - $now;
                     $wait_day  = floor( $wait / 86400 );
@@ -866,15 +874,15 @@ class VI_WP_LUCKY_WHEEL_Frontend_Frontend {
                     $wait_min  = floor( ( $wait - $wait_day * 86400 - $wait_hour * 3600 ) / 60 );
                     $wait_sec  = $wait - $wait_day * 86400 - $wait_hour * 3600 - $wait_min * 60;
 
-                    $wait_return = $wait_sec . esc_html__( ' seconds', 'wp-lucky-wheel' );
+                    $wait_return = $wait_sec . esc_html__( ' секунди', 'wp-lucky-wheel' );
                     if ( $wait_day ) {
-                        $wait_return = sprintf( esc_html__( '%s days %s hours %s minutes %s seconds', 'wp-lucky-wheel' ), $wait_day, $wait_hour, $wait_min, $wait_sec );
+                        $wait_return = sprintf( esc_html__( '%s дни %s часа %s минути %s секунди', 'wp-lucky-wheel' ), $wait_day, $wait_hour, $wait_min, $wait_sec );
                     } elseif ( $wait_hour ) {
-                        $wait_return = sprintf( esc_html__( '%s hours %s minutes %s seconds', 'wp-lucky-wheel' ), $wait_hour, $wait_min, $wait_sec );
+                        $wait_return = sprintf( esc_html__( '%s часа %s минути %s секунди', 'wp-lucky-wheel' ), $wait_hour, $wait_min, $wait_sec );
                     } elseif ( $wait_min ) {
-                        $wait_return = sprintf( esc_html__( '%s minutes %s seconds', 'wp-lucky-wheel' ), $wait_min, $wait_sec );
+                        $wait_return = sprintf( esc_html__( '%s минути %s секунди', 'wp-lucky-wheel' ), $wait_min, $wait_sec );
                     }
-                    $allow = esc_html__( 'You have to wait ', 'wp-lucky-wheel' ) . ( $wait_return ) . esc_html__( ' to be able to spin again.', 'wp-lucky-wheel' );
+                    $allow = esc_html__( 'Моля изчакайте ', 'wp-lucky-wheel' ) . ( $wait_return ) . esc_html__( ' преди да опитате отново.', 'wp-lucky-wheel' );
                 } else {
                     $allow = 'yes';
                     $spin_meta['spin_num'] ++;
