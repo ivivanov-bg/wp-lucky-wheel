@@ -117,8 +117,8 @@ jQuery(document).ready(function ($) {
 
     function clone_piece() {
         $('.clone_piece').on('click', function () {
-            if ($('.wheel_col').length >= 6) {
-                alert('You can only add 6 slices. Upgrade to Premium version to add up to 20 slices.');
+            if ($('.wheel_col').length >= 20) {
+                alert('You can only add 20 slices. Upgrade to Premium version to add up to 20 slices.');
             } else {
                 var new_row = $(this).parent().parent().clone();
                 var total_temp = parseInt($('.total_probability').attr('data-total_probability'));

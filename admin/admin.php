@@ -1628,8 +1628,8 @@ class VI_WP_LUCKY_WHEEL_Admin_Admin {
 
             if ( isset( $_POST['submit'] ) ) {
                 if ( $_POST['probability'] ) {
-                    if ( count( $_POST['probability'] ) > 6 || count( $_POST['probability'] ) < 3 ) {
-                        wp_die( 'You can only includes from 3 to 6 slices. Upgrade to Premium version to add up to 20 slices.' );
+                    if ( count( $_POST['probability'] ) > 20 || count( $_POST['probability'] ) < 3 ) {
+                        wp_die( 'You can only includes from 3 to 20 slices. Upgrade to Premium version to add up to 20 slices.' );
                     }
                     if ( array_sum( $_POST['probability'] ) != 100 ) {
                         wp_die( 'The total probability must be equal to 100%!' );
