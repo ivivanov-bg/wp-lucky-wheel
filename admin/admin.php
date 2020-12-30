@@ -966,8 +966,10 @@ class VI_WP_LUCKY_WHEEL_Admin_Admin {
                                 </label>
                             </th>
                             <td colspan="4">
-                                <a class="vi-ui button" target="_blank"
-                                   href="https://1.envato.market/xDRb1"><?php esc_html_e( 'Upgrade This Feature', 'wp-lucky-wheel' ) ?></a>
+                                <input type="text" name="wheel_spinning_time" id="wheel_spinning_time"
+                                       value="<?php if ( $this->settings->get_params( 'wheel', 'spinning_time' ) ) {
+                                           echo $this->settings->get_params( 'wheel', 'spinning_time' );
+                                       } ?>">
                                 <p><?php esc_html_e( 'From 3s to 15s.', 'wp-lucky-wheel' ); ?></p>
                             </td>
                         </tr>
@@ -989,8 +991,10 @@ class VI_WP_LUCKY_WHEEL_Admin_Admin {
                                 <label for="font_size"><?php esc_html_e( 'Adjust font size of text on the wheel by(%)', 'wp-lucky-wheel' ) ?></label>
                             </th>
                             <td>
-                                <a class="vi-ui button" target="_blank"
-                                   href="https://1.envato.market/xDRb1"><?php esc_html_e( 'Upgrade This Feature', 'wp-lucky-wheel' ) ?></a>
+                                <input type="text" name="font_size" id="font_size"
+                                       value="<?php if ( $this->settings->get_params( 'wheel', 'font_size' ) ) {
+                                           echo $this->settings->get_params( 'wheel', 'font_size' );
+                                       } ?>">
                             </td>
                         </tr>
                         <tr>
@@ -998,8 +1002,10 @@ class VI_WP_LUCKY_WHEEL_Admin_Admin {
                                 <label for="wheel_size"><?php esc_html_e( 'Adjust the size of the wheel by(%)', 'wp-lucky-wheel' ) ?></label>
                             </th>
                             <td>
-                                <a class="vi-ui button" target="_blank"
-                                   href="https://1.envato.market/xDRb1"><?php esc_html_e( 'Upgrade This Feature', 'wp-lucky-wheel' ) ?></a>
+                                <input type="text" name="wheel_size" id="wheel_size"
+                                       value="<?php if ( $this->settings->get_params( 'wheel', 'wheel_size' ) ) {
+                                           echo $this->settings->get_params( 'wheel', 'wheel_size' );
+                                       } ?>">
                             </td>
                         </tr>
                         </tbody>
@@ -1575,8 +1581,8 @@ class VI_WP_LUCKY_WHEEL_Admin_Admin {
                     'custom_css'             => isset( $_POST['custom_css'] ) ? wp_kses_post( stripslashes( $_POST['custom_css'] ) ) : "",
                 ),
                 'wheel'      => array(
-                    'wheel_speed'       => 5,
-                    'spinning_time'     => 8,
+                    'wheel_speed'       => isset( $_POST['wheel_speed'] ) ? sanitize_text_field( $_POST['wheel_speed'] ) : 5,
+                    'spinning_time'     => isset( $_POST['wheel_spinning_time'] ) ? sanitize_text_field( $_POST['wheel_spinning_time'] ) : 8,
                     'prize_type'        => isset( $_POST['prize_type'] ) ? stripslashes_deep( array_map( 'sanitize_text_field', $_POST['prize_type'] ) ) : array(),
                     'custom_value'      => isset( $_POST['custom_type_value'] ) ? array_map( 'wplwl_sanitize_text_field', $_POST['custom_type_value'] ) : array(),
                     'custom_label'      => isset( $_POST['custom_type_label'] ) ? array_map( 'wplwl_sanitize_text_field', $_POST['custom_type_label'] ) : array(),
@@ -1585,8 +1591,8 @@ class VI_WP_LUCKY_WHEEL_Admin_Admin {
                     'slices_text_color' => isset( $_POST['slices_text_color'] ) ? array_map( 'sanitize_text_field', $_POST['slices_text_color'] ) : array(),
                     'slice_text_color'  => isset( $_POST['slice_text_color'] ) ? wp_kses_post( stripslashes( $_POST['slice_text_color'] ) ) : "",
                     'show_full_wheel'   => isset( $_POST['show_full_wheel'] ) ? sanitize_text_field( $_POST['show_full_wheel'] ) : "",
-                    'font_size'         => 100,
-                    'wheel_size'        => 100,
+                    'font_size'         => isset( $_POST['font_size'] ) ? sanitize_text_field( $_POST['font_size'] ) : 100,
+                    'wheel_size'        => isset( $_POST['wheel_size'] ) ? sanitize_text_field( $_POST['wheel_size'] ) : 100,
                     'random_color'      => isset( $_POST['random_color'] ) ? sanitize_text_field( $_POST['random_color'] ) : "",
                 ),
 
