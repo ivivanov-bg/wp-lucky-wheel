@@ -5,6 +5,8 @@ jQuery(document).ready(function ($) {
     let custom_field_name_enable = _wplwl_get_email_params.custom_field_name_enable;
     let custom_field_name_enable_mobile = _wplwl_get_email_params.custom_field_name_enable_mobile;
     let custom_field_name_required = _wplwl_get_email_params.custom_field_name_required;
+    let custom_field_mobile_enable = _wplwl_get_email_params.custom_field_mobile_enable;
+    let custom_field_mobile_required = _wplwl_get_email_params.custom_field_mobile_required;
     let wplwl_hide_popup = _wplwl_get_email_params.hide_popup;
     let color = _wplwl_get_email_params.bg_color;
     let slices_text_color = _wplwl_get_email_params.slices_text_color;
@@ -230,11 +232,14 @@ jQuery(document).ready(function ($) {
         $('#wplwl_chek_mail').on('click', function () {
             $('#wplwl_error_mail').html('');
             $('#wplwl_error_name').html('');
+            $('#wplwl_error_mobile').html('');
             $('.wplwl_field_name').removeClass('wplwl-required-field');
             $('.wplwl_field_email').removeClass('wplwl-required-field');
+            $('.wplwl_field_mobile').removeClass('wplwl-required-field');
             let qualified = true;
             let wplwl_email = $('#wplwl_player_mail').val();
             let wplwl_name = $('#wplwl_player_name').val();
+            let wplwl_mobile = $('#wplwl_player_mobile').val();
             if ('on' === gdpr_checkbox && !$('.wplwl-gdpr-checkbox-wrap input[type="checkbox"]').prop('checked')) {
                 alert(_wplwl_get_email_params.gdpr_warning);
                 return false;
@@ -242,6 +247,11 @@ jQuery(document).ready(function ($) {
             if (custom_field_name_enable == 'on' && custom_field_name_enable_mobile == 'on' && custom_field_name_required == 'on' && !wplwl_name) {
                 $('#wplwl_error_name').html(_wplwl_get_email_params.custom_field_name_message);
                 $('.wplwl_field_name').addClass('wplwl-required-field');
+                qualified = false;
+            }
+            if (custom_field_mobile_enable == 'on' && custom_field_mobile_required == 'on' && !wplwl_mobile) {
+                $('#wplwl_error_mobile').html(_wplwl_get_email_params.custom_field_mobile_message);
+                $('.wplwl_field_mobile').addClass('wplwl-required-field');
                 qualified = false;
             }
             if (!wplwl_email) {
@@ -268,6 +278,7 @@ jQuery(document).ready(function ($) {
                         data: {
                             user_email: wplwl_email,
                             user_name: wplwl_name,
+                            user_mobile: wplwl_mobile,
                             language: _wplwl_get_email_params.language,
                             _wordpress_lucky_wheel_nonce: $('#_wordpress_lucky_wheel_nonce').val(),
                         },
